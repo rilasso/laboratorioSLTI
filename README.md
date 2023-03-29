@@ -30,13 +30,6 @@
 		- Sirve para hacer un reset pero los cambios guardados siguen en pie.
 	- `--hard`
 		- Sirve para hacer un reset pero los cambios son eliminados inmediatamente. 
-- git `remote` 
-	- Sirve para agregar, ver y borrar conneciones a repositorios
-- `git remote add origin https://github.com/rilasso/laboratorioSLTI.git`
-- `git branch -M main`
-- `git checkout -b lab/01`
-- `git push origin lab/01`
-- `git merge lab/01`
 
 Peticiones de cambio / Pull request
 - Es una forma de que un colaborador y resoluciones de conflictos
