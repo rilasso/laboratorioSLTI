@@ -1,6 +1,6 @@
 # Comandos Basicos de git y definición
 
-- git ´init´ 
+- git `init` 
 	- Se utiliza para inicializar un repositorio.
 - git ´add´
 	- git add <archivo>
@@ -15,7 +15,7 @@
 	- Se utiliza para ver la diferencia del archivo con un commit anterior.
 - git ´status´	
 	- Se utiliza para ver los cambios agregados al staging.
-- git ´branch´ <Nombre>
+- git ´branch´ <CurNombre><NuevoNombre>
 	- Se utiliza para crear un branch.
 - git ´checkout´ <Nombre>
 	- Se utiliza para entrar a un nuevo branch.
