@@ -31,3 +31,10 @@
 	- --hard
 		- Sirve para hacer un reset pero los cambios son eliminados inmediatamente. 
 
+
+Peticiones de Cambio / Pull request
+- Es una forma de que un colaborador revise y apruebe tus cambios. 
+- Se hace antes de fusionarlo con la rama principal.
+- Es una practica común en proyectos colaborativos. Se revisa la calidad del código y evitar errores.
+
+
