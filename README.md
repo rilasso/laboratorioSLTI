@@ -31,10 +31,14 @@
 	- --hard
 		- Sirve para hacer un reset pero los cambios son eliminados inmediatamente. 
 
-
-Peticiones de Cambio / Pull request
-- Es una forma de que un colaborador revise y apruebe tus cambios. 
+Peticiones de cambio / Pull request
+- Es una forma de que un colaborador y resoluciones de conflictos
 - Se hace antes de fusionarlo con la rama principal.
 - Es una practica común en proyectos colaborativos. Se revisa la calidad del código y evitar errores.
 
+
+Merge entre ramas y resoluciones de conflictos
+- El merge se puede hacer de forma automática o manual
+- Si git detecta problemas en el merge con la rama git notifica si hay algún conflicto 
+- Si no hay conflictos el merge se hara automáticamente.
 
