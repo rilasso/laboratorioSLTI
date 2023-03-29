@@ -19,7 +19,7 @@
 	- Se utiliza para crear un branch.
 - git `checkout` <Nombre>
 	- Se utiliza para entrar a un nuevo branch.
-- git `checkout` -b <Nombre>
+- git `checkout -b`  <Nombre>
 	- Se utiliza para cambiar de branch y crear uno nuevo.
 - git `merge` <Nombre>
 	- Se utiliza para merge el current branch con el <Nombre> del branch.
@@ -30,6 +30,13 @@
 		- Sirve para hacer un reset pero los cambios guardados siguen en pie.
 	- `--hard`
 		- Sirve para hacer un reset pero los cambios son eliminados inmediatamente. 
+- git `remote` 
+	- Sirve para agregar, ver y borrar conneciones a repositorios
+- `git remote add origin https://github.com/rilasso/laboratorioSLTI.git`
+- `git branch -M main`
+- `git checkout -b lab/01`
+- `git push origin lab/01`
+- `git merge lab/01`
 
 Peticiones de cambio / Pull request
 - Es una forma de que un colaborador y resoluciones de conflictos
