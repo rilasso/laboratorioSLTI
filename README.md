@@ -1,33 +1,33 @@
 # Comandos Basicos de git y definición
 
 - git ´init´ 
-	- Se utiliza para inicializar un repositorio
+	- Se utiliza para inicializar un repositorio.
 - git ´add´
 	- git add <archivo>
-		- Se utiliza para agregar un archivo 
+		- Se utiliza para agregar un archivo.
 	- git add .
-		- Se utiliza para agregar todos los archivos
+		- Se utiliza para agregar todos los archivos.
 - git ´commit´ -m "Mensaje"
 	- Se utiliza para subir los archivos agregados con git add. Se agrega un mensaje.
 - git ´diff´ <archivo>
-	- Se utiliza para mostrar la diferencia de un archivo del repositorio con tu local
+	- Se utiliza para mostrar la diferencia de un archivo del repositorio con tu local.
 - git ´diff´ <hash><archivo>
-	- Se utiliza para ver la diferencia del archivo con un commit anterior
+	- Se utiliza para ver la diferencia del archivo con un commit anterior.
 - git ´status´	
-	- Se utiliza para ver los cambios agregados al staging
+	- Se utiliza para ver los cambios agregados al staging.
 - git ´branch´ <Nombre>
-	- Se utiliza para crear un branch
+	- Se utiliza para crear un branch.
 - git ´checkout´ <Nombre>
-	- Se utiliza para entrar a un nuevo branch
+	- Se utiliza para entrar a un nuevo branch.
 - git ´checkout´ -b <Nombre>
-	- Se utiliza para cambiar de branch y crear uno nuevo
+	- Se utiliza para cambiar de branch y crear uno nuevo.
 - git ´merge´ <Nombre>
-	- Se utiliza para merge el current branch con el <Nombre> del branch
+	- Se utiliza para merge el current branch con el <Nombre> del branch.
 - git ´revert´ <ID>
-	- Se utiliza para regresar al <id> del commit y se guardan los cambios
+	- Se utiliza para regresar al <id> del commit y se guardan los cambios.
 - git ´reset´
 	- --soft 
-		- Sirve para hacer un reset pero los cambios guardados siguen en pie
+		- Sirve para hacer un reset pero los cambios guardados siguen en pie.
 	- --hard
-		- Sirve para hacer un reset pero los cambios son eliminados inmediatamente 
+		- Sirve para hacer un reset pero los cambios son eliminados inmediatamente. 
 
