@@ -30,13 +30,6 @@
 		- Sirve para hacer un reset pero los cambios guardados siguen en pie.
 	- `--hard`
 		- Sirve para hacer un reset pero los cambios son eliminados inmediatamente. 
-- git `remote` 
-	- Sirve para agregar, ver y borrar conneciones a repositorios
-- `git remote add origin https://github.com/rilasso/laboratorioSLTI.git`
-- `git branch -M main`
-- `git checkout -b lab/01`
-- `git push origin lab/01`
-- `git merge lab/01`
 
 Peticiones de cambio / Pull request
 - Es una forma de que un colaborador y resoluciones de conflictos
@@ -48,4 +41,21 @@ Merge entre ramas y resoluciones de conflictos
 - El merge se puede hacer de forma automática o manual
 - Si git detecta problemas en el merge con la rama git notifica si hay algún conflicto 
 - Si no hay conflictos el merge se hara automáticamente.
+
+¿Que son los tags?
+
+- Tags o Etiquetas en Git son identificadores asocioados a versiones específicas de un repositorio
+- Se utilizan para marcas versiones, como lanzamiento de software
+- Marcar hitos importantes en el desarrollo de un proyecto
+
+	- `git tag v1.0`
+	- `git tag -s v1.0`
+   	- `git push -tags`
+   	- `git show v1.0`
+
+### Git Fetch, Pull, Push
+
+- `git fetch` se utiliza para descargar los cambios en un respositorio remoto o local
+- `git pull` es una combinacion de fetch y merge con la rama actual del repositorio
+- `git push` se utiliza para enviar los cambios que estan en el commit
 
