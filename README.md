@@ -53,7 +53,7 @@ Merge entre ramas y resoluciones de conflictos
    	- `git push -tags`
    	- `git show v1.0`
 
-###Git Fetch, Pull, Push
+### Git Fetch, Pull, Push
 
 - `git fetch` se utiliza para descargar los cambios en un respositorio remoto o local
 - `git pull` es una combinacion de fetch y merge con la rama actual del repositorio
